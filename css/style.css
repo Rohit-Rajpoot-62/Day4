@@ -1,0 +1,55 @@
+.Courses div img {
+    width: 400px;
+    border-radius: 23px;
+    
+}
+
+
+img{
+    border-radius: 23px;
+    border: 2px solid black;
+}
+
+.Courses div img:hover {
+    transform: scale(1.01);
+}
+
+
+.Courses {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 34px;
+    row-gap: 65px;
+    justify-content: center;
+    align-items: center;
+    margin: 56px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 12px;
+
+}
+
+nav :hover {
+    background-color: rgb(210, 192, 169);
+    padding: 6px;
+    border-radius: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 23px;
+}
+
+footer{
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 12px;
+    font-size: 21px;
+}
